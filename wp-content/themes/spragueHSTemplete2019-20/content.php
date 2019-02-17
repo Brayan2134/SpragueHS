@@ -1,10 +1,11 @@
-<div class="blog-post">
-    <h2 class="blog-post-title">
-        Sample BLog Post
-    </h2>
-    <p class="blog-post-meta">
-        Febuary 17, 2018
-    </p>
+<div id="page-content-wrapper"><!--DON'T DELETE THIS (MAKES NAVBAR WORK)-->
 
-    <p>This is just some sample content</p>
-</div>
+    <!--Main Page Body-->
+    <div class="container-fluid">
+        <h1 class="mt-4">Scalable Wordpress Website.</h1>
+        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+    </div>
+    <!--./Main Page Body-->
+
+</div> <!--DON'T DELETE THIS (Navbar Nav)-->
