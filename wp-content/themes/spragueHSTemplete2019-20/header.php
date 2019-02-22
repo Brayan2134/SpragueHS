@@ -27,6 +27,6 @@
     <button class="btn btn-primary" id="menu-toggle">Toggle Menu
       <span class="navbar-toggler-icon"></span>
     </button>   
-  </nav>
+  </nav><!--./Navigation-->
 </body>
 </html>

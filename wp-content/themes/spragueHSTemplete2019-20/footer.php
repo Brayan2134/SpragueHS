@@ -9,7 +9,7 @@
     e.preventDefault();
   $("#wrapper").toggleClass("toggled");
 });
-</script>
+</script><!--./Menu Toggle-->
 
 
 <!--Footer for wordpress-->
