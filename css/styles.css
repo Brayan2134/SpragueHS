@@ -12,3 +12,22 @@
     This will include all H & P tags, and any common buttons that are 
     almost always used.
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    background: #DCDCDC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
