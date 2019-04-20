@@ -26,7 +26,6 @@ document.write('\
     \
     \
     \
-    <link rel="stylesheet" href="css/header.css">\
     <link rel="stylesheet" href="css/navigation.css">\
     <link rel="stylesheet" href="css/styles.css">\
 ');

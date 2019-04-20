@@ -14,6 +14,39 @@
     --------------
 */
 
+/*
+        THIS IS DEFINING FOR ALL DEVICES,
+        CHECK AT END OF FILE FOR DESKTOP ONLY CSS
+*/
+
+/***********************************************************************************************/
+
+/*Define what masthead is*/
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: rgb(24, 24, 24);
+    background-image: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+/*Define font size for the masthead*/
+.masthead h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: light;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
 /*Welcome to Sprague banner*/
 .fade-in-sprague-logo{
     color: #fa4616;
@@ -24,27 +57,52 @@
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
 }
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+
+/*Background image for masthead*/
+.overlay{ /*Does not display for mobile devices*/
+    background-image: none;
 }
 
-.masthead-bg{
-    background-image: url('../../img/logo/victory-o-orange.svg');
+/**********************************************************************************************/
+/*
+        DESKTOP ONLY CSS
+*/
+
+/*Define properties for non mobile devices*/
+@media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+    }
+    
+    .masthead h1 {
+      font-size: 3rem;
+      float: left;
+
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+    }
+
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  @-o-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
 }
