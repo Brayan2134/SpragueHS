@@ -1,0 +1,51 @@
+/*
+    Author: Quevedo Ramos, Brayan
+    Date: 4/20/19
+
+    Modifyers:
+    ----------
+*/
+/*
+    Purpose:
+    --------
+    ANYTHING RELATED TO THE NAVIGATION OF THE SPRAGUE SITE WILL GO HERE.
+
+    General Notes:
+    --------------
+    Naviagation is under nav.js
+    PLEASE MAKE SURE TO COMMENT WHAT THE USE OF THE CLASSES ARE FOR!!!
+*/
+
+/*The dropdown menu box*/
+.dropdown-menu{
+    margin-top: 0px;
+    border-radius: 2px;
+    border: none;
+    background:grey;
+}
+
+/*Items in dropdown*/
+.dropdown-item{ /*Ask element to inherit properties of page (for speed)*/
+    color: inherit;
+    background: inherit;
+}
+
+.dropdown-item:hover{ /*Once elemt is hovred on, change colored and style it*/
+    transition: 0.2s all;
+    color: black;
+    background: orange;
+}
+/*.Items in dropdown*/
+
+/*CREATE HOVERABLE DROPDOWN MENU*/
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    transition: all 0.2s ease;
+    display: block;
+}
+/*.CREATE HOVERABLE DROPDOWN MENU*/
