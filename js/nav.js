@@ -46,10 +46,10 @@ document.write('\
                 \
                 <!--THIS IS THE SPORTS SECTION-->\
                 <li class="nav-item dropdown">\
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
                         Sports\
                     </a>\
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">\
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">\
                         <a class="dropdown-item" href="#">Yes</a>\
                         <a class="dropdown-item" href="#">Another action</a>\
                         <a class="dropdown-item" href="#">Something else here</a>\
