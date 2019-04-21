@@ -17,7 +17,7 @@
     After each line in the document.write, use the \ to declare new line.
     IF YOU GET AN ERROR OF LITERAL STRING, OR NEXT LINE IS UNDERLINE ALTHOUGH YOU USED '\'
     MAKE SURE THAT THERES NO SPACES AFTER THE '\' THATS UNDERLINED.
-    Please don't refrence 1 page css, that will produce more load on the server.
+    ***Please don't refrence 1 page css, that will produce more load on the server.***
 */
 document.write('\
     <!--Refrence All CSS Files-->\
