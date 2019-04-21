@@ -1,0 +1,77 @@
+<!--
+    Author: Quevedo Ramos, Brayan
+    Date: 4/21/19
+
+    Modifyers:
+    ----------
+
+    Purpose:
+    --------
+    In the event that we need to shut down the page for x reason,
+    please rename this page as index.html, and move the actual index page to 
+    another location (this folder would be fine).
+
+    General Notes:
+    --------------
+    This file is all self contained, 
+    so internal styling and external sources is required.
+    ***Delete Base Href if your going to use it***
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sprague High School: Maintenance</title>
+    
+    <base href="../"><!--FOR TESTING ONLY-->
+
+    <!--Bootstrap Core-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <style>
+        body{
+            font-family: 'Nanum Gothic', sans-serif;
+            background: rgb(121, 121, 121);
+        }
+        #error-message{
+            color: rgb(184, 55, 20);
+        }
+        .img-center{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img class="img-center col-lg-3 col-md-4 col-sm-3" src="img/logo/victory-o-orange.svg" alt="Sprague Logo">
+                <h3 class="text-center" id="error-message">
+                    We're sorry, but Sprague High School's is currently down.
+                    <b></b>
+                </h3>
+                <p>
+                    This is us,
+                    <b>NOT</b>
+                    you. Within the hour, everything 
+                    will be back to normal.
+                    If you need to contact Sprague, here 
+                    are some quicklinks!
+                </p>
+                <p class="mt-5">
+                    <b>Office Number:</b>
+                    (503)-399-3261 <br>
+                    <b>Location:</b>
+                    2373 Kuebler Blvd S
+                    Salem, Oregon 97302 <br>
+                    <b>Fax Number:</b>
+                    503-391-4046 <br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
