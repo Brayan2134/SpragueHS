@@ -31,3 +31,11 @@ h6{
 p{
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+    color: rgb(250, 70, 22);
+}
+
+hr.white{
+    border-top: 1px solid white;
+}
