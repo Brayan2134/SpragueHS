@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6{
-    color: rgb(250, 70, 22);
+    text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -40,8 +40,4 @@ a{
 
 hr.white{
     border-top: 1px solid white;
-}
-
-.container-color-main{
-    background: #000;
 }
